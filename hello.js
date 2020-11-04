@@ -5,8 +5,23 @@
 
 sayHello();  */
 
-const sayHello  = function (name) {
+/* const sayHello  = function (name) {
   console.log("Hello, " + name);
 }
 
-sayHello("Julia");
+sayHello("Julia"); */
+
+/*Example of console.log
+const sayHelloToConsole  = function (name) {
+  console.log("Hello, " + name);
+}
+sayHelloToConsole('John');*/
+
+/* Example of return */
+
+const returnSayHello  = function (name) {
+  return "Hello, " + name;
+}
+const greeting = returnSayHello('John');
+
+console.log(greeting);
